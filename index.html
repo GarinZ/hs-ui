@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>HS UI</title>
+    
+    
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='http://cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <div class="hsui manage-container">
+  <div class="button-container hsui segment">
+    <div class="hsui segment-title">按钮容器</div>
+    <button class="btn btn-default hsui">Button</button>
+    <button class="btn btn-default hsui labeled blue">
+      <i class='fa fa-user'></i>
+      增加人员
+    </button>
+  </div>
+  <div class="button-container hsui segment">
+    <div class="hsui segment-title">输入框容器</div>
+
+    <div class='hsui small input'>
+      <input type="text" placeholder='输入内容'/>
+    </div>
+    <br/><br/>
+    <div class='hsui input'>
+      <input type="text" placeholder='输入内容'/>
+    </div>
+    <br/><br/>
+    <div class='hsui large input'>
+      <input type="text" placeholder='输入内容'/>
+    </div>
+  </div>
+<!-- 普通表格   -->
+  <div class="button-container hsui segment">
+    <div class="segment-title">表格容器</div>
+    <div class="form-container">
+      <table class="hsui table">
+        <thead>
+          <tr>
+             <th>门票名称</th>
+             <th>类型</th>
+             <th>价格</th>
+             <th>数量</th>
+             <th>开始时间</th>
+             <th>结束时间</th>
+             <th>售出</th>
+             <th>售票状态</th>
+             <th>操作</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>免费体验票</th>
+            <td>免费票</td>
+            <td>免费</td>
+            <td>100</td>
+            <td>2016-03-12 14:36:00</td>
+            <td>2016-03-30 20:00:00</td>
+            <td>20</td>
+            <td>开启</td>
+            <td>
+              <button class='hsui btn btn-success operation-btn'>
+                <i class="fa fa-check"></i>
+              </button>
+              <button class='hsui btn purple operation-btn'>
+                <i class="fa fa-pencil"></i>
+              </button>
+              <button class='hsui btn btn-danger operation-btn'>
+                <i class="fa fa-trash-o"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <th>普通票</th>
+            <td>付费票</td>
+            <td>100.00</td>
+            <td>200</td>
+            <td>2016-03-12 14:36:00</td>
+            <td>2016-03-30 20:00:00</td>
+            <td>20</td>
+            <td>开启</td>
+            <td>
+              <button class='hsui btn btn-success operation-btn'>
+                <i class="fa fa-check"></i>
+              </button>
+              <button class='hsui btn purple operation-btn'>
+                <i class="fa fa-pencil"></i>
+              </button>
+              <button class='hsui btn btn-danger operation-btn'>
+                <i class="fa fa-trash-o"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <th>VIP票</th>
+            <td>付费票</td>
+            <td>1200.00</td>
+            <td>500</td>
+            <td>2016-03-12 14:36:00</td>
+            <td>2016-03-30 20:00:00</td>
+            <td>20</td>
+            <td>开启</td>
+            <td>
+              <button class='hsui btn btn-success operation-btn'>
+                <i class="fa fa-check"></i>
+              </button>
+              <button class='hsui btn purple operation-btn'>
+                <i class="fa fa-pencil"></i>
+              </button>
+              <button class='hsui btn btn-danger operation-btn'>
+                <i class="fa fa-trash-o"></i>
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      
+<!--  底部带按钮的表格      -->
+      <table class="hsui table colored">
+        <thead>
+          <tr>
+             <th>门票名称</th>
+             <th>类型</th>
+             <th>价格</th>
+             <th>数量</th>
+             <th>开始时间</th>
+             <th>结束时间</th>
+             <th>售出</th>
+             <th>售票状态</th>
+             <th>操作</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>免费体验票</th>
+            <td>免费票</td>
+            <td>免费</td>
+            <td>100</td>
+            <td>2016-03-12 14:36:00</td>
+            <td>2016-03-30 20:00:00</td>
+            <td>20</td>
+            <td>开启</td>
+            <td>
+              <button class='hsui btn btn-success operation-btn'>
+                <i class="fa fa-check"></i>
+              </button>
+              <button class='hsui btn purple operation-btn'>
+                <i class="fa fa-pencil"></i>
+              </button>
+              <button class='hsui btn btn-danger operation-btn'>
+                <i class="fa fa-trash-o"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <th>普通票</th>
+            <td>付费票</td>
+            <td>100.00</td>
+            <td>200</td>
+            <td>2016-03-12 14:36:00</td>
+            <td>2016-03-30 20:00:00</td>
+            <td>20</td>
+            <td>开启</td>
+            <td>
+              <button class='hsui btn btn-success operation-btn'>
+                <i class="fa fa-check"></i>
+              </button>
+              <button class='hsui btn purple operation-btn'>
+                <i class="fa fa-pencil"></i>
+              </button>
+              <button class='hsui btn btn-danger operation-btn'>
+                <i class="fa fa-trash-o"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <th>VIP票</th>
+            <td>付费票</td>
+            <td>1200.00</td>
+            <td>500</td>
+            <td>2016-03-12 14:36:00</td>
+            <td>2016-03-30 20:00:00</td>
+            <td>20</td>
+            <td>开启</td>
+            <td>
+              <button class='hsui btn btn-success operation-btn'>
+                <i class="fa fa-check"></i>
+              </button>
+              <button class='hsui btn purple operation-btn'>
+                <i class="fa fa-pencil"></i>
+              </button>
+              <button class='hsui btn btn-danger operation-btn'>
+                <i class="fa fa-trash-o"></i>
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <!-- line-colored表格 -->
+      <table class="hsui table line-colored">
+        <thead>
+          <tr>
+             <th>门票名称</th>
+             <th>类型</th>
+             <th>价格</th>
+             <th>数量</th>
+             <th>开始时间</th>
+             <th>结束时间</th>
+             <th>售出</th>
+             <th>售票状态</th>
+             <th>操作</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>免费体验票</th>
+            <td>免费票</td>
+            <td>免费</td>
+            <td>100</td>
+            <td>2016-03-12 14:36:00</td>
+            <td>2016-03-30 20:00:00</td>
+            <td>20</td>
+            <td>开启</td>
+            <td>
+              <button class='hsui btn btn-success operation-btn'>
+                <i class="fa fa-check"></i>
+              </button>
+              <button class='hsui btn purple operation-btn'>
+                <i class="fa fa-pencil"></i>
+              </button>
+              <button class='hsui btn btn-danger operation-btn'>
+                <i class="fa fa-trash-o"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <th>普通票</th>
+            <td>付费票</td>
+            <td>100.00</td>
+            <td>200</td>
+            <td>2016-03-12 14:36:00</td>
+            <td>2016-03-30 20:00:00</td>
+            <td>20</td>
+            <td>开启</td>
+            <td>
+              <button class='hsui btn btn-success operation-btn'>
+                <i class="fa fa-check"></i>
+              </button>
+              <button class='hsui btn purple operation-btn'>
+                <i class="fa fa-pencil"></i>
+              </button>
+              <button class='hsui btn btn-danger operation-btn'>
+                <i class="fa fa-trash-o"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <th>VIP票</th>
+            <td>付费票</td>
+            <td>1200.00</td>
+            <td>500</td>
+            <td>2016-03-12 14:36:00</td>
+            <td>2016-03-30 20:00:00</td>
+            <td>20</td>
+            <td>开启</td>
+            <td>
+              <button class='hsui btn btn-success operation-btn'>
+                <i class="fa fa-check"></i>
+              </button>
+              <button class='hsui btn purple operation-btn'>
+                <i class="fa fa-pencil"></i>
+              </button>
+              <button class='hsui btn btn-danger operation-btn'>
+                <i class="fa fa-trash-o"></i>
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <!-- line-colored表格 -->
+      <table class="hsui table button-table">
+        <thead>
+          <tr>
+             <th>门票名称</th>
+             <th>类型</th>
+             <th>价格</th>
+             <th>数量</th>
+             <th>开始时间</th>
+             <th>结束时间</th>
+             <th>售出</th>
+             <th>售票状态</th>
+             <th>操作</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>免费体验票</th>
+            <td>免费票</td>
+            <td>免费</td>
+            <td>100</td>
+            <td>2016-03-12 14:36:00</td>
+            <td>2016-03-30 20:00:00</td>
+            <td>20</td>
+            <td>
+              <div class="hsui toggle checkbox">
+                <input type="checkbox" name="public">
+                <label></label>
+              </div>
+            </td>
+            <td>
+              <button class='hsui btn btn-success operation-btn'>
+                <i class="fa fa-check"></i>
+              </button>
+              <button class='hsui btn purple operation-btn'>
+                <i class="fa fa-pencil"></i>
+              </button>
+              <button class='hsui btn btn-danger operation-btn'>
+                <i class="fa fa-trash-o"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <th>普通票</th>
+            <td>付费票</td>
+            <td>100.00</td>
+            <td>200</td>
+            <td>2016-03-12 14:36:00</td>
+            <td>2016-03-30 20:00:00</td>
+            <td>20</td>
+            <td>
+              <div class="hsui toggle checkbox">
+                <input type="checkbox" name="public">
+                <label></label>
+              </div>
+            </td>
+            <td>
+              <button class='hsui btn btn-success operation-btn'>
+                <i class="fa fa-check"></i>
+              </button>
+              <button class='hsui btn purple operation-btn'>
+                <i class="fa fa-pencil"></i>
+              </button>
+              <button class='hsui btn btn-danger operation-btn'>
+                <i class="fa fa-trash-o"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <th>VIP票</th>
+            <td>付费票</td>
+            <td>1200.00</td>
+            <td>500</td>
+            <td>2016-03-12 14:36:00</td>
+            <td>2016-03-30 20:00:00</td>
+            <td>20</td>
+            <td>
+              <div class="hsui toggle checkbox">
+                <input type="checkbox" name="public">
+                <label></label>
+              </div>
+            </td>
+            <td>
+              <button class='hsui btn btn-success operation-btn'>
+                <i class="fa fa-check"></i>
+              </button>
+              <button class='hsui btn purple operation-btn'>
+                <i class="fa fa-pencil"></i>
+              </button>
+              <button class='hsui btn btn-danger operation-btn'>
+                <i class="fa fa-trash-o"></i>
+              </button>
+            </td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th colspan="9">
+              <button class=" float right btn btn-default hsui labeled blue">
+                <i class='fa fa-user'></i>
+                增加人员
+              </button>
+              <button class='hsui btn btn-default'>批量开启</button>
+            </th>
+          </tr>
+        </tfoot>
+      </table>
+      
+    </div>
+  </div>
+  
+  <div class="button-container hsui segment">
+    <div class="segment-title">开关容器</div>
+    <div class="toggle-container">
+      <div class="hsui toggle checkbox">
+        <input type="checkbox" name="public">
+        <label>开启或关闭审核</label>
+      </div>
+    </div>
+  </div>
+  
+  <div class="hsui segment">
+    <div class="segment-title">标签容器</div>
+    <div class="dropdown-container">
+      <div class="hsui label circular green">
+        1
+      </div>
+      <div class="hsui label red">
+        <i class="fa fa-envelope icon"></i> 
+         20
+      </div>
+      <div class="hsui label blue">
+        标签
+      </div>
+    </div>
+  </div>
+  
+  <div class="hsui segment">
+    <div class="segment-title">提示框容器</div>
+    <div class="popup-container">
+      <table class="hsui table button-table">
+        <thead>
+          <tr>
+             <th>门票名称</th>
+             <th>类型</th>
+             <th>价格</th>
+             <th>数量</th>
+             <th>开始时间</th>
+             <th>结束时间</th>
+             <th>售出</th>
+             <th>售票状态</th>
+             <th>操作</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>免费体验票</th>
+            <td>免费票</td>
+            <td>免费</td>
+            <td>100</td>
+            <td>2016-03-12 14:36:00</td>
+            <td>2016-03-30 20:00:00</td>
+            <td>20</td>
+            <td>
+              <div class="hsui toggle checkbox">
+                <input type="checkbox" name="public">
+                <label></label>
+              </div>
+            </td>
+            <td>
+              <button class='hsui btn btn-success operation-btn' data-content='通过'>
+                <i class="fa fa-check"></i>
+              </button>
+              <button class='hsui btn purple operation-btn' data-content='编辑'>
+                <i class="fa fa-pencil"></i>
+              </button>
+              <button class='hsui btn btn-danger operation-btn' data-content='删除'>
+                <i class="fa fa-trash-o"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <th>普通票</th>
+            <td>付费票</td>
+            <td>100.00</td>
+            <td>200</td>
+            <td>2016-03-12 14:36:00</td>
+            <td>2016-03-30 20:00:00</td>
+            <td>20</td>
+            <td>
+              <div class="hsui toggle checkbox">
+                <input type="checkbox" name="public">
+                <label></label>
+              </div>
+            </td>
+            <td>
+              <button class='hsui btn btn-success operation-btn' data-content='通过'>
+                <i class="fa fa-check"></i>
+              </button>
+              <button class='hsui btn purple operation-btn' data-content='编辑'>
+                <i class="fa fa-pencil"></i>
+              </button>
+              <button class='hsui btn btn-danger operation-btn' data-content='删除'>
+                <i class="fa fa-trash-o"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <th>VIP票</th>
+            <td>付费票</td>
+            <td>1200.00</td>
+            <td>500</td>
+            <td>2016-03-12 14:36:00</td>
+            <td>2016-03-30 20:00:00</td>
+            <td>20</td>
+            <td>
+              <div class="hsui toggle checkbox">
+                <input type="checkbox" name="public">
+                <label></label>
+              </div>
+            </td>
+            <td>
+              <button class='hsui btn btn-success operation-btn' data-content='通过'>
+                <i class="fa fa-check"></i>
+              </button>
+              <button class='hsui btn purple operation-btn' data-content='编辑'>
+                <i class="fa fa-pencil"></i>
+              </button>
+              <button class='hsui btn btn-danger operation-btn' data-content='删除'>
+                <i class="fa fa-trash-o"></i>
+              </button>
+            </td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th colspan="9">
+              <button class=" float right btn btn-default hsui labeled blue">
+                <i class='fa fa-user'></i>
+                增加人员
+              </button>
+              <button class='hsui btn btn-default'>批量开启</button>
+            </th>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  </div>
+</div>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
